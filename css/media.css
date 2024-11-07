@@ -1,0 +1,65 @@
+@media (max-width: 1730px) {
+}
+@media (max-width: 777px) {
+	.header {
+		display: none;
+	}
+	.burger-menu {
+		display: block;
+	}
+
+	.main {
+		flex-direction: column-reverse;
+		align-items: center;
+		text-align: center;
+
+		h1 {
+			padding-top: 25px;
+		}
+		.main-text button {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-left: 120px;
+		}
+	}
+	.resent a {
+		display: none;
+	}
+	.resent p {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+	}
+	.box {
+		flex-direction: column;
+		align-items: center;
+		gap: 15px;
+	}
+}
+
+@media (max-width: 460px) {
+	.work h1 {
+		display: flex;
+		justify-content: center;
+	}
+	.text-box {
+		padding-block: 20px;
+	}
+	.text-1 {
+		display: flex;
+		flex-direction: column;
+	}
+	.text-1 img {
+		max-width: 379px;
+		display: flex;
+		justify-content: center;
+		padding-inline: 35px;
+	}
+	#vibrant {
+		display: none;
+	}
+	#type {
+		display: none;
+	}
+}

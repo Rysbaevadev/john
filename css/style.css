@@ -1,0 +1,270 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: heebo, sans-serif;
+	text-decoration: none;
+}
+.burger-menu {
+	display: none;
+}
+button {
+	cursor: pointer;
+	border: none;
+	background: #ff6464;
+	color: #fff;
+	border-radius: 6px;
+}
+button:hover {
+	transform: scale(1.1);
+}
+.container {
+	max-width: 1000px;
+	width: 100%;
+	margin-inline: auto;
+}
+#header .container {
+	max-width: 1245px;
+	width: 100%;
+	margin-inline: auto;
+}
+
+#header {
+	padding-block: 30px;
+}
+
+.header {
+	display: flex;
+	justify-content: end;
+	gap: 20px;
+}
+.header a {
+	font-weight: 500;
+	font-size: (0.688rem, 0.452rem + 1.18vw, 1.188rem);
+	color: black;
+}
+.header a:focus {
+	color: blue;
+}
+.burger-menu {
+	display: none;
+	color: #000;
+	background-color: #fff;
+	font-size: 40px;
+}
+.main {
+	display: flex;
+	justify-content: space-between;
+	padding-block: 80px;
+}
+.main img {
+	font-size: clamp(25rem, 16.176rem + 44.12vw, 43.75rem);
+}
+.main-text {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 30px;
+}
+.main-text h1 {
+	width: 500px;
+	font-weight: 700;
+	font-size: clamp(1.25rem, 0.721rem + 2.65vw, 2.375rem);
+	color: #21243d;
+}
+.main-text p {
+	width: 480px;
+	font-weight: 400;
+	font-size: clamp(0.688rem, 0.54rem + 0.74vw, 1rem);
+	color: #21243d;
+}
+.main-text button {
+	width: 200px;
+	height: 41px;
+	font-weight: 400;
+	font-size: clamp(0.688rem, 0.482rem + 1.03vw, 1.125rem);
+}
+.resent {
+	display: flex;
+	justify-content: space-between;
+	padding-block: 20px;
+}
+#resent {
+	background: #edf7fa;
+}
+.resent a {
+	font-weight: 300px;
+	font-size: clamp(0.688rem, 0.54rem + 0.74vw, 1rem);
+	color: #00a8cc;
+}
+.resent p {
+	font-weight: 400;
+	font-size: clamp(0.688rem, 0.423rem + 1.32vw, 1.25rem);
+	color: #21243d;
+}
+.box {
+	display: flex;
+	justify-content: space-between;
+	gap: 40px;
+	padding-block: 30px;
+}
+.blok {
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	background: #fff;
+	padding: 24px;
+	max-width: clamp(21.875rem, 20.365rem + 7.55vw, 26.688rem);
+}
+.blok h1 {
+	font-weight: 600px;
+	font-size: clamp(1.125rem, 0.919rem + 1.03vw, 1.563rem);
+	color: #21243d;
+}
+.blok p {
+	font-weight: 400;
+	font-size: clamp(0.688rem, 0.482rem + 1.03vw, 1.125rem) px;
+	color: #21243d;
+}
+.work {
+	padding-top: 25px;
+	font-weight: 400;
+	font-size: clamp(0.75rem, 0.515rem + 1.18vw, 1.25rem);
+	color: #21243d;
+}
+.text-1 {
+	display: flex;
+	padding-block: 30px;
+}
+.text-1 img {
+	max-width: 246px;
+	width: 100%;
+}
+.text-box {
+	align-items: flex-start;
+	padding-inline: 25px;
+}
+.text-box h1 {
+	font-weight: 700;
+	font-size: clamp(1.125rem, 0.919rem + 1.03vw, 1.563rem);
+	color: #21243d;
+}
+.text-box p {
+	font-weight: 400px;
+	font-size: clamp(0.688rem, 0.599rem + 0.44vw, 0.875rem);
+	color: #21243d;
+}
+.text-2 {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.text-2 button {
+	width: 50px;
+	height: 25px;
+	font-weight: 600;
+	font-size: clamp(0.688rem, 0.599rem + 0.44vw, 0.875rem);
+	background: #142850;
+	color: #fff;
+	border-radius: 10px;
+	margin: 15px 0px;
+}
+.text-2 h2 {
+	font-weight: 400;
+	font-size: clamp(0.688rem, 0.54rem + 0.74vw, 1rem);
+	color: #8695a4;
+}
+
+.vibrant {
+	display: flex;
+	gap: 20px;
+	padding-block: 28px;
+}
+.vibrant-box {
+	align-items: center;
+	gap: 20px;
+}
+.vibrant-box h1 {
+	font-weight: 700;
+	font-size: clamp(1.063rem, 0.798rem + 1.32vw, 1.625rem);
+	color: #21243d;
+}
+.vibrant-box p {
+	font-weight: 400px;
+	font-size: clamp(1.063rem, 0.798rem + 1.32vw, 1.625rem);
+	color: #21243d;
+}
+.v-box2 {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.v-box2 button {
+	padding: 10px 20px;
+	font-weight: 600;
+	font-size: clamp(0.688rem, 0.54rem + 0.74vw, 1rem);
+	background: #142850;
+	color: #fff;
+	border-radius: 10px;
+	margin: 15px 0px;
+}
+.v-box2 h2 {
+	font-weight: 400;
+	font-size: clamp(0.688rem, 0.54rem + 0.74vw, 1rem);
+	color: #8695a4;
+}
+.type {
+	display: flex;
+	gap: 28px;
+	padding-block: 20px;
+}
+.type-2 {
+	align-items: center;
+	gap: 15px;
+}
+.type-2 h1 {
+	font-weight: 700;
+	font-size: clamp(1rem, 0.735rem + 1.32vw, 1.563rem);
+	color: #21243d;
+}
+.type-2 p {
+	font-weight: 400px;
+	font-size: clamp(0.688rem, 0.54rem + 0.74vw, 1rem);
+	color: #21243d;
+}
+.type-text {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.type-text button {
+	padding: 10px 20px;
+	font-weight: 600;
+	font-size: 15px;
+	background: #142850;
+	color: #fff;
+	border-radius: 10px;
+	margin: 15px 0px;
+}
+.type-text h2 {
+	font-weight: 400;
+	font-size: clamp(0.688rem, 0.54rem + 0.74vw, 1rem);
+	color: #8695a4;
+}
+.icon {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding-block: 180px;
+	gap: 30px;
+}
+.icon .icon-img {
+	display: flex;
+	gap: 40px;
+}
+.icon p {
+	font-size: clamp(0.688rem, 0.57rem + 0.59vw, 0.938rem);
+	font-weight: 400;
+	line-height: 20.56px;
+	color: #21243d;
+}
